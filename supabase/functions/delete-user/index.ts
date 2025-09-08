@@ -1,7 +1,7 @@
 import { createClient } from "https://esm.sh/@supabase/supabase-js@2"
 
 Deno.serve(async (req: Request) => {
-  const allowedOrigin = "http://localhost:5173" // 혹은 배포된 도메인
+  const allowedOrigin = "https://ttomo.vercel.app" // 혹은 배포된 도메인
 
   // ✅ CORS preflight 요청 처리
   if (req.method === "OPTIONS") {
